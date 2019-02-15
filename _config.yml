@@ -23,7 +23,10 @@ permalink_defaults:
 social:
     Github:http://github.com/cyf-gh
 
-
+tags:
+    -Linux
+    -Misc
+    -Vim
 # Directory
 source_dir: source
 public_dir: public
