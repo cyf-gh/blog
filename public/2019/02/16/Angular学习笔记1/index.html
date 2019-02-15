@@ -3,18 +3,20 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>-贪玩宝宝-</title>
+  <title>Angular学习笔记 1 组件参数传递 | -贪玩宝宝-</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="东华大学非CS专业本科生">
-<meta property="og:type" content="website">
-<meta property="og:title" content="-贪玩宝宝-">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="组件之间互传参数父传子（Parent =&amp;gt; Child）父组件传递 12&amp;lt;!-- parent.componet.html --&amp;gt;&amp;lt;app-child [childVarName]=&quot;parentVarName&quot; [parent]=&quot;this&quot; [func]=&quot;foo&quot;&amp;gt;&amp;lt;app-child&amp;gt; 传入函数时不需要括号。 接受参数 12345678910111">
+<meta name="keywords" content="Angular">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Angular学习笔记 1 组件参数传递">
+<meta property="og:url" content="http://yoursite.com/2019/02/16/Angular学习笔记1/index.html">
 <meta property="og:site_name" content="-贪玩宝宝-">
-<meta property="og:description" content="东华大学非CS专业本科生">
+<meta property="og:description" content="组件之间互传参数父传子（Parent =&amp;gt; Child）父组件传递 12&amp;lt;!-- parent.componet.html --&amp;gt;&amp;lt;app-child [childVarName]=&quot;parentVarName&quot; [parent]=&quot;this&quot; [func]=&quot;foo&quot;&amp;gt;&amp;lt;app-child&amp;gt; 传入函数时不需要括号。 接受参数 12345678910111">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-02-15T17:26:26.929Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="-贪玩宝宝-">
-<meta name="twitter:description" content="东华大学非CS专业本科生">
+<meta name="twitter:title" content="Angular学习笔记 1 组件参数传递">
+<meta name="twitter:description" content="组件之间互传参数父传子（Parent =&amp;gt; Child）父组件传递 12&amp;lt;!-- parent.componet.html --&amp;gt;&amp;lt;app-child [childVarName]=&quot;parentVarName&quot; [parent]=&quot;this&quot; [func]=&quot;foo&quot;&amp;gt;&amp;lt;app-child&amp;gt; 传入函数时不需要括号。 接受参数 12345678910111">
   
     <link rel="alternate" href="/atom.xml" title="-贪玩宝宝-" type="application/atom+xml">
   
@@ -67,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Angular学习笔记1" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-Angular学习笔记1" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/16/Angular学习笔记1/" class="article-date">
   <time datetime="2019-02-15T16:09:57.000Z" itemprop="datePublished">2019-02-16</time>
@@ -82,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/16/Angular学习笔记1/">Angular学习笔记 1 组件参数传递</a>
+    <h1 class="article-title" itemprop="name">
+      Angular学习笔记 1 组件参数传递
     </h1>
   
 
@@ -116,159 +116,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Vim快捷键笔记" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/02/14/Vim快捷键笔记/" class="article-date">
-  <time datetime="2019-02-14T14:49:41.000Z" itemprop="datePublished">2019-02-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/14/Vim快捷键笔记/">Vim快捷键笔记</a>
-    </h1>
+    <a href="/2019/02/14/Vim快捷键笔记/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Vim快捷键笔记</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<h2 id="代码块折叠-za-zM-zR"><a href="#代码块折叠-za-zM-zR" class="headerlink" title="代码块折叠 za zM zR"></a>代码块折叠 za zM zR</h2></blockquote>
-<p>za，打开或关闭当前折叠；</p>
-<p>zM，关闭所有折叠；</p>
-<p>zR，打开所有折叠。</p>
-<blockquote>
-<h2 id="Goto-Implementation-sw"><a href="#Goto-Implementation-sw" class="headerlink" title="Goto Implementation ;sw"></a>Goto Implementation ;sw</h2></blockquote>
-<p>;sw  但是好像不怎么智能，只能转同名源文件和头文件</p>
-<blockquote>
-<h2 id="书签-mx-m-mn-mp"><a href="#书签-mx-m-mn-mp" class="headerlink" title="书签 mx  m? mn mp"></a>书签 mx  m? mn mp</h2></blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">let g:SignatureMap = &#123;</span><br><span class="line">        \ &apos;Leader&apos;             :  &quot;m&quot;,</span><br><span class="line">        \ &apos;PlaceNextMark&apos;      :  &quot;m,&quot;,</span><br><span class="line">        \ &apos;ToggleMarkAtLine&apos;   :  &quot;m.&quot;,</span><br><span class="line">        \ &apos;PurgeMarksAtLine&apos;   :  &quot;m-&quot;,</span><br><span class="line">        \ &apos;DeleteMark&apos;         :  &quot;dm&quot;,</span><br><span class="line">        \ &apos;PurgeMarks&apos;         :  &quot;mda&quot;,</span><br><span class="line">        \ &apos;PurgeMarkers&apos;       :  &quot;m&lt;BS&gt;&quot;,</span><br><span class="line">        \ &apos;GotoNextLineAlpha&apos;  :  &quot;&apos;]&quot;,</span><br><span class="line">        \ &apos;GotoPrevLineAlpha&apos;  :  &quot;&apos;[&quot;,</span><br><span class="line">        \ &apos;GotoNextSpotAlpha&apos;  :  &quot;`]&quot;,</span><br><span class="line">        \ &apos;GotoPrevSpotAlpha&apos;  :  &quot;`[&quot;,</span><br><span class="line">        \ &apos;GotoNextLineByPos&apos;  :  &quot;]&apos;&quot;,</span><br><span class="line">        \ &apos;GotoPrevLineByPos&apos;  :  &quot;[&apos;&quot;,</span><br><span class="line">        \ &apos;GotoNextSpotByPos&apos;  :  &quot;mn&quot;,</span><br><span class="line">        \ &apos;GotoPrevSpotByPos&apos;  :  &quot;mp&quot;,</span><br><span class="line">        \ &apos;GotoNextMarker&apos;     :  &quot;[+&quot;,</span><br><span class="line">        \ &apos;GotoPrevMarker&apos;     :  &quot;[-&quot;,</span><br><span class="line">        \ &apos;GotoNextMarkerAny&apos;  :  &quot;]=&quot;,</span><br><span class="line">        \ &apos;GotoPrevMarkerAny&apos;  :  &quot;[=&quot;,</span><br><span class="line">        \ &apos;ListLocalMarks&apos;     :  &quot;ms&quot;,</span><br><span class="line">        \ &apos;ListLocalMarkers&apos;   :  &quot;m?&quot;</span><br><span class="line">        \ &#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>书签设定。mx，设定/取消当前行名为 x 的标签；m,，自动设定下一个可用书签名，前面提说，独立书签名是不能重复的，在你已经有了多个独立书签，当想再设置书签时，需要记住已经设定的所有书签名，否则很可能会将已有的书签冲掉，这可不好，所以，vim-signature 为你提供了 m, 快捷键，自动帮你选定下一个可用独立书签名；mda，删除当前文件中所有独立书签。</li>
-<li>书签罗列。m?，罗列出当前文件中所有书签，选中后回车可直接跳转；</li>
-<li>书签跳转。mn，按行号前后顺序，跳转至下个独立书签；mp，按行号前后顺序，跳转至前个独立书签。书签跳转方式很多，除了这里说的行号前后顺序，还可以基于书签名字母顺序跳转、分类书签同类跳转、分类书签不同类间跳转等等。</li>
-</ul>
-<blockquote>
-<h2 id="宏标识（略）"><a href="#宏标识（略）" class="headerlink" title="宏标识（略）"></a>宏标识（略）</h2></blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/14/Vim快捷键笔记/" data-id="cjs6bsf250001pgvf6xz0v2mj" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-Windows下使用Vundle的若干问题" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/02/14/Windows下使用Vundle的若干问题/" class="article-date">
-  <time datetime="2019-02-14T09:50:04.000Z" itemprop="datePublished">2019-02-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/14/Windows下使用Vundle的若干问题/">Windows下使用Vundle的若干问题</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>关于再Windows下使用Vundle的官方文档详见：<a href="https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows" target="_blank" rel="noopener">这里</a></p>
-<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><p>常见错误：执行PluginInstall之后所有插件全部安装失败，显示Procession Failed。原因是因为安装Git的时候没有勾选CMD辅助。如果你遇到了类似的情况请打开CMD然后确认curl的版本。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --version</span><br></pre></td></tr></table></figure>
-<p>如果显示不存在curl，请重新安装Git，并勾选CMD选项。</p>
-<h2 id="与Linux对应的目录"><a href="#与Linux对应的目录" class="headerlink" title="与Linux对应的目录"></a>与Linux对应的目录</h2><p>关于Windows下的Vim各目录。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim --version</span><br></pre></td></tr></table></figure>
-<p>往下翻页就能看见了。</p>
-<p>Linux下的.vimrc在Win下为_vimrc，存放位置为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files (x86)\Vim</span><br></pre></td></tr></table></figure>
-<p>Vundle放置于</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\??\.vim\bundle</span><br></pre></td></tr></table></figure>
-<p>详见 <a href="https://github.com/cyf-gh/Shell/blob/master/vim/install-vundle" target="_blank" rel="noopener">我的Vundle安装脚本</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/14/Windows下使用Vundle的若干问题/" data-id="cjs6bsf2h0004pgvfbw3bmxko" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-apt-get-install-vim失败" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/02/13/apt-get-install-vim失败/" class="article-date">
-  <time datetime="2019-02-13T10:09:54.000Z" itemprop="datePublished">2019-02-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/13/apt-get-install-vim失败/">apt-get install vim失败</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install vim</span><br></pre></td></tr></table></figure>
-<p>失败，提示vim-common版本问题。</p>
-<p>解决方案：卸载vim-common并重新安装。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get uninstall vim-common</span><br><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-get install vim</span><br></pre></td></tr></table></figure>
-<p>成功。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/13/apt-get-install-vim失败/" data-id="cjs6bsf2c0003pgvf29doxive" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
