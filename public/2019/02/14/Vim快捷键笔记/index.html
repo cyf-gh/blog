@@ -3,18 +3,20 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>-贪玩宝宝-</title>
+  <title>Vim快捷键笔记 | -贪玩宝宝-</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="东华大学非CS专业本科生">
-<meta property="og:type" content="website">
-<meta property="og:title" content="-贪玩宝宝-">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="代码块折叠 za zM zR za，打开或关闭当前折叠； zM，关闭所有折叠； zR，打开所有折叠。  Goto Implementation ;sw ;sw  但是好像不怎么智能，只能转同名源文件和头文件  书签 mx  m? mn mp 1234567891011121314151617181920212223let g:SignatureMap = &amp;#123;        \ &amp;apo">
+<meta name="keywords" content="Vim">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vim快捷键笔记">
+<meta property="og:url" content="http://yoursite.com/2019/02/14/Vim快捷键笔记/index.html">
 <meta property="og:site_name" content="-贪玩宝宝-">
-<meta property="og:description" content="东华大学非CS专业本科生">
+<meta property="og:description" content="代码块折叠 za zM zR za，打开或关闭当前折叠； zM，关闭所有折叠； zR，打开所有折叠。  Goto Implementation ;sw ;sw  但是好像不怎么智能，只能转同名源文件和头文件  书签 mx  m? mn mp 1234567891011121314151617181920212223let g:SignatureMap = &amp;#123;        \ &amp;apo">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-02-14T15:25:39.436Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="-贪玩宝宝-">
-<meta name="twitter:description" content="东华大学非CS专业本科生">
+<meta name="twitter:title" content="Vim快捷键笔记">
+<meta name="twitter:description" content="代码块折叠 za zM zR za，打开或关闭当前折叠； zM，关闭所有折叠； zR，打开所有折叠。  Goto Implementation ;sw ;sw  但是好像不怎么智能，只能转同名源文件和头文件  书签 mx  m? mn mp 1234567891011121314151617181920212223let g:SignatureMap = &amp;#123;        \ &amp;apo">
   
     <link rel="alternate" href="/atom.xml" title="-贪玩宝宝-" type="application/atom+xml">
   
@@ -67,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Vim快捷键笔记" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-Vim快捷键笔记" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/14/Vim快捷键笔记/" class="article-date">
   <time datetime="2019-02-14T14:49:41.000Z" itemprop="datePublished">2019-02-14</time>
@@ -82,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/14/Vim快捷键笔记/">Vim快捷键笔记</a>
+    <h1 class="article-title" itemprop="name">
+      Vim快捷键笔记
     </h1>
   
 
@@ -121,103 +121,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Windows下使用Vundle的若干问题" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/02/14/Windows下使用Vundle的若干问题/" class="article-date">
-  <time datetime="2019-02-14T09:50:04.000Z" itemprop="datePublished">2019-02-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/14/Windows下使用Vundle的若干问题/">Windows下使用Vundle的若干问题</a>
-    </h1>
+    <a href="/2019/02/14/Windows下使用Vundle的若干问题/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Windows下使用Vundle的若干问题</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>关于再Windows下使用Vundle的官方文档详见：<a href="https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows" target="_blank" rel="noopener">这里</a></p>
-<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><p>常见错误：执行PluginInstall之后所有插件全部安装失败，显示Procession Failed。原因是因为安装Git的时候没有勾选CMD辅助。如果你遇到了类似的情况请打开CMD然后确认curl的版本。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --version</span><br></pre></td></tr></table></figure>
-<p>如果显示不存在curl，请重新安装Git，并勾选CMD选项。</p>
-<h2 id="与Linux对应的目录"><a href="#与Linux对应的目录" class="headerlink" title="与Linux对应的目录"></a>与Linux对应的目录</h2><p>关于Windows下的Vim各目录。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim --version</span><br></pre></td></tr></table></figure>
-<p>往下翻页就能看见了。</p>
-<p>Linux下的.vimrc在Win下为_vimrc，存放位置为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files (x86)\Vim</span><br></pre></td></tr></table></figure>
-<p>Vundle放置于</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\??\.vim\bundle</span><br></pre></td></tr></table></figure>
-<p>详见 <a href="https://github.com/cyf-gh/Shell/blob/master/vim/install-vundle" target="_blank" rel="noopener">我的Vundle安装脚本</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/14/Windows下使用Vundle的若干问题/" data-id="cjs5umeyr0003d0vfq43klptf" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-apt-get-install-vim失败" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/02/13/apt-get-install-vim失败/" class="article-date">
-  <time datetime="2019-02-13T10:09:54.000Z" itemprop="datePublished">2019-02-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/13/apt-get-install-vim失败/">apt-get install vim失败</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install vim</span><br></pre></td></tr></table></figure>
-<p>失败，提示vim-common版本问题。</p>
-<p>解决方案：卸载vim-common并重新安装。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get uninstall vim-common</span><br><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-get install vim</span><br></pre></td></tr></table></figure>
-<p>成功。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/13/apt-get-install-vim失败/" data-id="cjs5umeyk0001d0vf8zs5y10m" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
