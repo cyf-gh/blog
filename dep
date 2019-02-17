@@ -1,6 +1,7 @@
 hexo clean
-hexo g
-hexo d
+hexo generate
+./douban
+hexo deploy
 git add --all
 git status
 git commit -m "automatic commit"

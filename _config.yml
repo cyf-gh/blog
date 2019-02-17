@@ -5,13 +5,16 @@
 # Site
 title: -贪玩宝宝-
 subtitle: 皿を、割れ
-description: 东华大学非CS专业本科生
+description: 
 author: cyf
 language: 
 - en
 - zh-Hans
 - jp
 timezone: Asia/Shanghai
+
+motion:
+  enable: false
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -21,8 +24,9 @@ permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 social:
-    Github:http://github.com/cyf-gh
-
+    Github: http://github.com/cyf-gh || github
+    Douban: https://www.douban.com/people/185362093/
+    
 tags:
     -Linux
     -Misc
@@ -86,11 +90,47 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/cyf-gh/cyf-gh.github.io.git
   branch: master
+
+post_wordcount:
+  item_text: true
+  wordcount: true  # 文章字数
+  min2read: true   # 阅读时间
+  totalcount: true  # 总共字数
+  separated_meta: true
+  
+douban:
+  user: 185362093
+  builtin: false
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 10000 
+  
