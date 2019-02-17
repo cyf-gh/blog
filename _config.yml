@@ -28,6 +28,9 @@ tags:
     -Misc
     -Vim
     -Angular
+    -Functional
+    -CharEncoding
+    -Cloud
 # Directory
 source_dir: source
 public_dir: public
