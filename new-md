@@ -1,2 +1,2 @@
 hexo new "$1"
-/c/Program\ Files/Typora/bin/typora.exe '/c/Web/blog/source/_posts/'"$1.md" &
+/d/Program\ Files/Typora/bin/typora.exe '/d/Web/blog/source/_posts/'"$1.md" &
