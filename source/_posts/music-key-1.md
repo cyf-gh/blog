@@ -1,10 +1,8 @@
 ---
 title: 【音乐扫盲系列】音调之调式
 date: 2019-02-28 22:40:20
-tags: Music
+categories: Music
 ---
-
-
 
 
 
